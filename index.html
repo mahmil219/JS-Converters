@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link -->
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="icon/image" href="assets/images/icon.png">
+    <title>All In One</title>
+</head>
+<body>
+
+    <div class="mainindex">
+        <div class="container-fluid p-0 d-flex">
+            <div class="col-md-2 mainsidebar">
+                <!-- sidebar -->
+                <div class="Sidebar">
+                    <div class="Sidebar0">
+                        <a href="" class="link text-light">
+                            <div class="icon pb-3 pt-3">
+                                <div class="iconimg">
+                                    <img src="assets/images/Main Logo.jpg" height="100%" width="100%">
+                                </div>
+                                <div class="icontext">
+                                    <b>ITS</b>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- content -->
+                        <div class="content">
+                            <!-- image converter -->
+                            <a href="" class="link">
+                                <div class="imgcon">
+                                    <div>
+                                        <i class="fa-regular fa-images"></i>
+                                    </div>
+                                    <div>
+                                        <p class="ms-1">Image Converter</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Unit Converter -->
+                            <a href="unit-converter/index.html" class="link">
+                                <div class="imgcon">
+                                    <div>
+                                        <i class="fa-solid fa-temperature-quarter"></i>
+                                    </div>
+                                    <div>
+                                        <p class="ms-1">Unit Converter</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Text Tool -->
+                            <a href="" class="link">
+                                <div class="imgcon">
+                                    <div>
+                                        <i class="fa-solid fa-align-center"></i>
+                                    </div>
+                                    <div>
+                                        <p class="ms-1">Text Tools</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Number Tool -->
+                            <a href="" class="link">
+                                <div class="imgcon">
+                                    <div>
+                                        <i class="fa-solid fa-arrow-up-9-1"></i>
+                                    </div>
+                                    <div>
+                                        <p class="ms-1">Number Tools</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Encryption Tool -->
+                            <a href="" class="link">
+                                <div class="imgcon">
+                                    <div>
+                                        <i class="fa-solid fa-compress"></i>
+                                    </div>
+                                    <div>
+                                        <p class="ms-1">Encryption Tools</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- OCR (Text Scanner) -->
+                            <a href="" class="link">
+                                <div class="imgcon">
+                                    <div>
+                                        <i class="fa-solid fa-text-width"></i>
+                                    </div>
+                                    <div>
+                                        <p class="ms-1">OCR (Text Scanner)</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Conversion Tools -->
+                            <a href="" class="link">
+                                <div class="imgcon">
+                                    <div>
+                                        <i class="fa-solid fa-text-width"></i>
+                                    </div>
+                                    <div>
+                                        <p class="ms-1">Conversion Tools</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- content End -->
+                    </div>
+                </div>
+                <!-- Navbar Responsive Btn -->
+                <button class="navresponsive">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- Navbar Responsivebtn script -->
+                <script>
+                    const sidebar = document.querySelector('.Sidebar');
+                    const hamburger = document.querySelector('.navresponsive');
+
+                    hamburger.addEventListener('click', function () {
+                        if (sidebar.style.width === '0px' || sidebar.style.width === '') {
+                            sidebar.style.width = '100%';
+                        } else {
+                            sidebar.style.width = '0px';
+                        }
+                    });
+                </script>
+                <!-- SideBar End -->
+            </div>
+            <!-- Col-md-2 End -->
+
+            <!-- Col-md-10 -->
+            <!-- nav -->
+            <div class="main" style="width: 100%;">
+                <div class="col-md-10" style="width: 100%;">
+                    <div class="NavLinks">
+                        <div class="NavLinksItem">
+                            <a href="https://www.facebook.com/?_rdc=2&_rdr"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="NavLinksItem">
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="NavLinksItem">
+                            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <!-- unit converters -->
+                <div>
+                    <div class="mainunitConverters">
+                        <div class="col-md-12">
+                            <center>
+                                <h4 class="UnitHeading">Unit Converters</h4>
+                            </center>
+                            <div class="container-fluid p-0 unit0">
+                                <div class="col-md-3">
+                                    <div class="unit1 unit2 zoom">
+                                        <a href="Length Converter.html">Length Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Area Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Mass Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Volume Converter</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-fluid p-0 unit0">
+                                <div class="col-md-3">
+                                    <div class="unit1 unit2 zoom">
+                                        <a href="">Each Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Temprature Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Time Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Digital Converter</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-fluid p-0 unit0">
+                                <div class="col-md-3">
+                                    <div class="unit1 unit2 zoom">
+                                        <a href="">PartsPer Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Speed Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Pace Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Pressure Converter</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-fluid p-0 unit0">
+                                <div class="col-md-3">
+                                    <div class="unit1 unit2 zoom">
+                                        <a href="">Current Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Voltage Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Power Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">ReactivePower Converter</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-fluid p-0 unit0">
+                                <div class="col-md-3">
+                                    <div class="unit1 unit2 zoom">
+                                        <a href="">ApparentPower Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Energy Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Reactive Energy Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">VolumeFlowRate Converter</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-fluid p-0 unit0">
+                                <div class="col-md-3">
+                                    <div class="unit1 unit2 zoom">
+                                        <a href="">Illuminance Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Frequency Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="unit1 zoom">
+                                        <a href="">Angular Converter</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

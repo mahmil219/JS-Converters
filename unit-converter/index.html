@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Link -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="icon/image" href="../assets/images/icon.png">
+  <title>Length Converter</title>
+</head>
+<body>
+
+  <!--  -->
+  <div class="mainLengthConverter">
+    <div class="container-fluid p-0 d-flex">
+      <div class="col-md-2 mainsidebar">
+        <!-- sidebar -->
+        <div class="Sidebar">
+          <div class="Sidebar0">
+            <a href="/" class="link text-light">
+              <div class="icon pb-3 pt-3">
+                <div class="iconimg">
+                  <img src="../assets/images/Main Logo.jpg" height="100%" width="100%">
+                </div>
+                <div class="icontext">
+                  <b>ITS</b>
+                </div>
+              </div>
+            </a>
+
+            <!-- content -->
+            <div class="content">
+              <!-- Heading -->
+              <div class="imgcon">
+                <b class="heading0">UNIT CONVERTERS</b>
+              </div>
+
+              <a href="#length-converter" class="link">
+                <div class="imgcon">
+                  <p>Length Converter</p>
+                </div>
+              </a>
+
+              <a href="#area-converter" class="link">
+                <div class="imgcon">
+                  <p>Area Converter</p>
+                </div>
+              </a>
+
+              <a href="#mass-converter" class="link">
+                <div class="imgcon">
+                  <p>Mass Converter</p>
+                </div>
+              </a>
+
+              <a href="#volume-converter" class="link">
+                <div class="imgcon">
+                  <p>Volume Converter</p>
+                </div>
+              </a>
+
+              <a href="#temp-converter" class="link">
+                <div class="imgcon">
+                  <p>Temprature Converter</p>
+                </div>
+              </a>
+
+              <a href="#time-converter" class="link">
+                <div class="imgcon">
+                  <p>Time Converter</p>
+                </div>
+              </a>
+
+              <a href="#digital-size-converter" class="link">
+                <div class="imgcon">
+                  <p>Digital Converter</p>
+                </div>
+              </a>
+
+              <a href="#partsper-converter" class="link">
+                <div class="imgcon">
+                  <p>PartsPer Converter</p>
+                </div>
+              </a>
+
+              <a href="#speed-converter" class="link">
+                <div class="imgcon">
+                  <p>Speed Converter</p>
+                </div>
+              </a>
+
+              <a href="#pace-converter" class="link">
+                <div class="imgcon">
+                  <p>Pace Converter</p>
+                </div>
+              </a>
+
+              <a href="#pressure-converter" class="link">
+                <div class="imgcon">
+                  <p>Pressure Converter</p>
+                </div>
+              </a>
+
+              <a href="#current-converter" class="link">
+                <div class="imgcon">
+                  <p>Current Converter</p>
+                </div>
+              </a>
+
+              <a href="#voltage-converter" class="link">
+                <div class="imgcon">
+                  <p>Voltage Converter</p>
+                </div>
+              </a>
+
+              <a href="#power-converter" class="link">
+                <div class="imgcon">
+                  <p>Power Converter</p>
+                </div>
+              </a>
+
+              <a href="#reactive-power-converter" class="link">
+                <div class="imgcon">
+                  <p>ReactivePower Converter</p>
+                </div>
+              </a>
+
+              <a href="#apparent-power-converter" class="link">
+                <div class="imgcon">
+                  <p>ApparentPower Converter</p>
+                </div>
+              </a>
+
+              <a href="#energy-converter" class="link">
+                <div class="imgcon">
+                  <p>Energy Converter</p>
+                </div>
+              </a>
+
+              <a href="#reactive-energy-converter" class="link">
+                <div class="imgcon">
+                  <p>ReactiveEnergy Converter</p>
+                </div>
+              </a>
+
+              <a href="#volume-flow-rate-converter" class="link">
+                <div class="imgcon">
+                  <p>VolumeFlowRate Converter</p>
+                </div>
+              </a>
+
+              <a href="#illuminance-converter" class="link">
+                <div class="imgcon">
+                  <p>Illuminance Converter</p>
+                </div>
+              </a>
+
+              <a href="#frequency-converter" class="link">
+                <div class="imgcon">
+                  <p>Frequency Converter</p>
+                </div>
+              </a>
+
+              <a href="#angular-converter" class="link">
+                <div class="imgcon">
+                  <p>Angular Converter</p>
+                </div>
+              </a>
+
+            </div>
+            <!-- content End -->
+          </div>
+        </div>
+        <!-- Navbar Responsive Btn -->
+        <button class="navresponsive">
+          <i class="fa fa-bars"></i>
+        </button>
+        <!-- Navbar Responsivebtn script -->
+        <script>
+          const sidebar = document.querySelector('.Sidebar');
+          const hamburger = document.querySelector('.navresponsive');
+          hamburger.addEventListener('click', function () {
+            if (sidebar.style.width === '0px' || sidebar.style.width === '') {
+              sidebar.style.width = '100%';
+            } else {
+              sidebar.style.width = '0px';
+            }
+          });
+        </script>
+        <!-- SideBar End -->
+      </div>
+
+      <!-- Nav -->
+      <div class="main" style="width: 100%;">
+        <div class="col-md-10" style="width: 100%;">
+          <div class="NavLinks">
+            <div class="NavLinksItem">
+              <a href="https://www.facebook.com/?_rdc=2&_rdr"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="NavLinksItem">
+              <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="NavLinksItem">
+              <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <br><br>
+
+        <!-- Length Converter -->
+        <div class="container responsiveconverter" id="length-converter">
+          <h1 class="section-title">Length Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-length-unit">From:</label>
+              <select id="from-length-unit">
+                <option value="cm">cm</option>
+                <option value="in">in</option>
+                <option value="m">m</option>
+                <option value="ft">ft</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-length-unit">To:</label>
+              <select id="to-length-unit">
+                <option value="cm">cm</option>
+                <option value="in">in</option>
+                <option value="m">m</option>
+                <option value="ft">ft</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-length-value">Value:</label>
+              <input type="number" id="input-length-value" required>
+            </div>
+            <button id="length-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="length-result" class="result"></div>
+        </div>
+        <script src="js/lenght-converter.js"></script>
+        <br><br>
+
+        <!-- Area Converter -->
+        <div class="container" id="area-converter">
+          <h1 class="section-title">Area Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-area-unit">From:</label>
+              <select id="from-area-unit">
+                <option value="sqm">sqm</option>
+                <option value="sqft">sqft</option>
+                <option value="sqkm">sqkm</option>
+                <option value="sqmi">sqmi</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-area-unit">To:</label>
+              <select id="to-area-unit">
+                <option value="sqm">sqm</option>
+                <option value="sqft">sqft</option>
+                <option value="sqkm">sqkm</option>
+                <option value="sqmi">sqmi</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-area-value">Value:</label>
+              <input type="number" id="input-area-value" required>
+            </div>
+            <button id="area-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="area-result" class="result"></div>
+        </div>
+        <script src="js/area-converter.js"></script>
+        <br><br>
+
+        <!-- Mass Converter -->
+        <div class="container" id="mass-converter">
+          <h1 class="section-title">Mass Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-mass-unit">From:</label>
+              <select id="from-mass-unit">
+                <option value="g">g</option>
+                <option value="kg">kg</option>
+                <option value="lb">lb</option>
+                <option value="oz">oz</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-mass-unit">To:</label>
+              <select id="to-mass-unit">
+                <option value="g">g</option>
+                <option value="kg">kg</option>
+                <option value="lb">lb</option>
+                <option value="oz">oz</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-mass-value">Value:</label>
+              <input type="number" id="input-mass-value" required>
+            </div>
+            <button id="mass-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="mass-result" class="result"></div>
+        </div>
+        <script src="js/mass-converter.js"></script>
+        <br><br>
+
+        <!-- Volume Converter -->
+        <div class="container" id="volume-converter">
+          <h1 class="section-title">Volume Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-volume-unit">From:</label>
+              <select id="from-volume-unit">
+                <option value="ml">ml</option>
+                <option value="l">l</option>
+                <option value="fl-oz">fl-oz</option>
+                <option value="gal">gal</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-volume-unit">To:</label>
+              <select id="to-volume-unit">
+                <option value="ml">ml</option>
+                <option value="l">l</option>
+                <option value="fl-oz">fl-oz</option>
+                <option value="gal">gal</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-volume-value">Value:</label>
+              <input type="number" id="input-volume-value" required>
+            </div>
+            <button id="volume-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="volume-result" class="result"></div>
+        </div>
+        <script src="js/volume-converter.js"></script>
+        <br><br>
+
+        <!-- Temprature Converter -->
+        <div class="container" id="temp-converter">
+          <h1 class="section-title">Temperature Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-temp-unit">From:</label>
+              <select id="from-temp-unit">
+                <option value="c">Celsius</option>
+                <option value="f">Fahrenheit</option>
+                <option value="k">Kelvin</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-temp-unit">To:</label>
+              <select id="to-temp-unit">
+                <option value="c">Celsius</option>
+                <option value="f">Fahrenheit</option>
+                <option value="k">Kelvin</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-temp-value">Value:</label>
+              <input type="number" id="input-temp-value" required>
+            </div>
+            <button id="temp-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="temp-result" class="result"></div>
+        </div>
+        <script src="js/temp-converter.js"></script>
+        <br><br>
+
+        <!-- Time Converter -->
+        <div class="container"  id="time-converter">
+          <h1 class="section-title">Time Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-time-unit">From:</label>
+              <select id="from-time-unit">
+                <option value="s">Seconds</option>
+                <option value="m">Minutes</option>
+                <option value="h">Hours</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-time-unit">To:</label>
+              <select id="to-time-unit">
+                <option value="s">Seconds</option>
+                <option value="m">Minutes</option>
+                <option value="h">Hours</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-time-value">Value:</label>
+              <input type="number" id="input-time-value" required>
+            </div>
+            <button id="time-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="time-result" class="result"></div>
+        </div>
+        <script src="js/time-converter.js"></script>
+        <br><br>
+
+        <!-- Digital Size Converter -->
+        <div class="container" id="digital-size-converter">
+          <h1 class="section-title">Digital Size Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-size-unit">From:</label>
+              <select id="from-size-unit">
+                <option value="B">Bytes (B)</option>
+                <option value="KB">Kilobytes (KB)</option>
+                <option value="MB">Megabytes (MB)</option>
+                <option value="GB">Gigabytes (GB)</option>
+                <option value="TB">Terabytes (TB)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-size-unit">To:</label>
+              <select id="to-size-unit">
+                <option value="B">Bytes (B)</option>
+                <option value="KB">Kilobytes (KB)</option>
+                <option value="MB">Megabytes (MB)</option>
+                <option value="GB">Gigabytes (GB)</option>
+                <option value="TB">Terabytes (TB)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-size-value">Value:</label>
+              <input type="number" id="input-size-value" required>
+            </div>
+            <button id="size-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="size-result" class="result"></div>
+        </div>
+        <script src="js/digital-converter.js"></script>
+        <br><br>
+
+        <!-- PartsPer Converter -->
+        <div class="container" id="partsper-converter">
+          <h1 class="section-title">Partsper Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-partsper-unit">From:</label>
+              <select id="from-partsper-unit">
+                <option value="ppm">Parts-per Million (ppm)</option>
+                <option value="ppb">Parts-per Billion (ppb)</option>
+                <option value="ppt">Parts-per Trillion (ppt)</option>
+                <option value="ppq">Parts-per Quadrillion (ppq)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-partsper-unit">To:</label>
+              <select id="to-partsper-unit">
+                <option value="ppm">Parts-per Million (ppm)</option>
+                <option value="ppb">Parts-per Billion (ppb)</option>
+                <option value="ppt">Parts-per Trillion (ppt)</option>
+                <option value="ppq">Parts-per Quadrillion (ppq)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-partsper-value">Value:</label>
+              <input type="number" id="input-partsper-value" required>
+            </div>
+            <button id="partsper-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="partsper-result" class="result"></div>
+        </div>
+        <script src="js/partsper-converter.js"></script>
+        <br><br>
+
+        <!-- Speed Converter -->
+        <div class="container" id="speed-converter">
+          <h1 class="section-title">Speed Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-speed-unit">From:</label>
+              <select id="from-speed-unit">
+                <option value="m/s">Meters per second (m/s)</option>
+                <option value="km/h">Kilometers per hour (km/h)</option>
+                <option value="mph">Miles per hour (mph)</option>
+                <option value="ft/s">Feet per second (ft/s)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-speed-unit">To:</label>
+              <select id="to-speed-unit">
+                <option value="m/s">Meters per second (m/s)</option>
+                <option value="km/h">Kilometers per hour (km/h)</option>
+                <option value="mph">Miles per hour (mph)</option>
+                <option value="ft/s">Feet per second (ft/s)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-speed-value">Value:</label>
+              <input type="number" id="input-speed-value" required>
+            </div>
+            <button id="speed-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="speed-result" class="result"></div>
+        </div>
+        <script src="js/speed-converter.js"></script>
+        <br><br>
+
+        <!-- Pace Converter -->
+        <div class="container" id="pace-converter">
+          <h1 class="section-title">Pace Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-pace-unit">From:</label>
+              <select id="from-pace-unit">
+                <option value="s/m">Seconds per meter (s/m)</option>
+                <option value="min/km">Minutes per kilometer (min/km)</option>
+                <option value="min/mi">Minutes per mile (min/mi)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-pace-unit">To:</label>
+              <select id="to-pace-unit">
+                <option value="s/m">Seconds per meter (s/m)</option>
+                <option value="min/km">Minutes per kilometer (min/km)</option>
+                <option value="min/mi">Minutes per mile (min/mi)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-pace-value">Value:</label>
+              <input type="number" id="input-pace-value" required>
+            </div>
+            <button id="pace-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="pace-result" class="result"></div>
+        </div>
+        <script src="js/pace-converter.js"></script>
+        <br><br>
+
+        <!-- Pressure Converter -->
+        <div class="container" id="pressure-converter">
+          <h1 class="section-title">Pressure Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-pressure-unit">From:</label>
+              <select id="from-pressure-unit">
+                <option value="pa">Pascal (Pa)</option>
+                <option value="kpa">Kilopascal (kPa)</option>
+                <option value="mpa">Megapascal (MPa)</option>
+                <option value="bar">Bar (bar)</option>
+                <option value="psi">Pound per square inch (psi)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-pressure-unit">To:</label>
+              <select id="to-pressure-unit">
+                <option value="pa">Pascal (Pa)</option>
+                <option value="kpa">Kilopascal (kPa)</option>
+                <option value="mpa">Megapascal (MPa)</option>
+                <option value="bar">Bar (bar)</option>
+                <option value="psi">Pound per square inch (psi)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-pressure-value">Value:</label>
+              <input type="number" id="input-pressure-value" required>
+            </div>
+            <button id="pressure-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="pressure-result" class="result"></div>
+        </div>
+        <script src="js/pressure-converter.js"></script>
+        <br><br>
+
+        <!-- Current Converter -->
+        <div class="container" id="current-converter">
+          <h1 class="section-title">Current Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-current-unit">From:</label>
+              <select id="from-current-unit">
+                <option value="a">Amperes (A)</option>
+                <option value="ma">Milliamperes (mA)</option>
+                <option value="ua">Microamperes (μA)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-current-unit">To:</label>
+              <select id="to-current-unit">
+                <option value="a">Amperes (A)</option>
+                <option value="ma">Milliamperes (mA)</option>
+                <option value="ua">Microamperes (μA)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-current-value">Value:</label>
+              <input type="number" id="input-current-value" required>
+            </div>
+            <button id="current-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="current-result" class="result"></div>
+        </div>
+        <script src="js/current-converter.js"></script>
+        <br><br>
+        
+        <!-- Voltage Converter -->
+        <div class="container"id="voltage-converter">
+          <h1 class="section-title">Voltage Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-voltage-unit">From:</label>
+              <select id="from-voltage-unit">
+                <option value="V">Volts (V)</option>
+                <option value="mV">Millivolts (mV)</option>
+                <option value="kV">Kilovolts (kV)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-voltage-unit">To:</label>
+              <select id="to-voltage-unit">
+                <option value="V">Volts (V)</option>
+                <option value="mV">Millivolts (mV)</option>
+                <option value="kV">Kilovolts (kV)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-voltage-value">Value:</label>
+              <input type="number" id="input-voltage-value" required>
+            </div>
+            <button id="voltage-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="voltage-result" class="result"></div>
+        </div>
+        <script src="js/voltage-converter.js"></script>
+        <br><br>
+
+        <!-- Power Converter -->
+        <div class="container" id="power-converter">
+          <h1 class="section-title">Power Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-power-unit">From:</label>
+              <select id="from-power-unit">
+                <option value="watts">Watts (W)</option>
+                <option value="kilowatts">Kilowatts (kW)</option>
+                <option value="megawatts">Megawatts (MW)</option>
+                <option value="horsepower">Horsepower (hp)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-power-unit">To:</label>
+              <select id="to-power-unit">
+                <option value="watts">Watts (W)</option>
+                <option value="kilowatts">Kilowatts (kW)</option>
+                <option value="megawatts">Megawatts (MW)</option>
+                <option value="horsepower">Horsepower (hp)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-power-value">Value:</label>
+              <input type="number" id="input-power-value" required>
+            </div>
+            <button id="power-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="power-result" class="result"></div>
+        </div>
+        <script src="js/power-converter.js"></script>
+        <br><br>
+
+        <!-- ReactivePower Converter -->
+        <div class="container" id="reactive-power-converter">
+          <h1 class="section-title">Reactive Power Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-reactive-power-unit">From:</label>
+              <select id="from-reactive-power-unit">
+                <option value="var">Volt-ampere reactive (var)</option>
+                <option value="mvar">Millivolt-ampere reactive (mvar)</option>
+                <option value="kvar">Kilovolt-ampere reactive (kvar)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-reactive-power-unit">To:</label>
+              <select id="to-reactive-power-unit">
+                <option value="var">Volt-ampere reactive (var)</option>
+                <option value="mvar">Millivolt-ampere reactive (mvar)</option>
+                <option value="kvar">Kilovolt-ampere reactive (kvar)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-reactive-power-value">Value:</label>
+              <input type="number" id="input-reactive-power-value" required>
+            </div>
+            <button id="reactive-power-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="reactive-power-result" class="result"></div>
+        </div>
+        <script src="js/reactivepower-converter.js"></script>
+        <br><br>
+
+        <!-- Apparent Power Converter -->
+        <div class="container" id="apparent-power-converter">
+          <h1 class="section-title">Apparent Power Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-apparent-power-unit">From:</label>
+              <select id="from-apparent-power-unit">
+                <option value="VA">Volt-Ampere (VA)</option>
+                <option value="kVA">Kilovolt-Ampere (kVA)</option>
+                <option value="MVA">Megavolt-Ampere (MVA)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-apparent-power-unit">To:</label>
+              <select id="to-apparent-power-unit">
+                <option value="VA">Volt-Ampere (VA)</option>
+                <option value="kVA">Kilovolt-Ampere (kVA)</option>
+                <option value="MVA">Megavolt-Ampere (MVA)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-apparent-power-value">Value:</label>
+              <input type="number" id="input-apparent-power-value" required>
+            </div>
+            <button id="apparent-power-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="apparent-power-result" class="result"></div>
+        </div>
+        <script src="js/apparentpower-converter.js"></script>
+        <br><br>
+
+        <!-- Energy Converter -->
+        <div class="container" id="energy-converter">
+          <h1 class="section-title">Energy Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-energy-unit">From:</label>
+              <select id="from-energy-unit">
+                <option value="joule">Joule (J)</option>
+                <option value="kilojoule">Kilojoule (kJ)</option>
+                <option value="calorie">Calorie (cal)</option>
+                <option value="kilocalorie">Kilocalorie (kcal)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-energy-unit">To:</label>
+              <select id="to-energy-unit">
+                <option value="joule">Joule (J)</option>
+                <option value="kilojoule">Kilojoule (kJ)</option>
+                <option value="calorie">Calorie (cal)</option>
+                <option value="kilocalorie">Kilocalorie (kcal)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-energy-value">Value:</label>
+              <input type="number" id="input-energy-value" required>
+            </div>
+            <button id="energy-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="energy-result" class="result"></div>
+        </div>
+        <script src="js/energy-converter.js"></script>
+        <br><br>
+
+        <!-- Reactive Energy Converter -->
+        <div class="container" id="reactive-energy-converter">
+          <h1 class="section-title">Reactive Energy Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-reactive-energy-unit">From:</label>
+              <select id="from-reactive-energy-unit">
+                <option value="var">Volt-Ampere Reactive (VAR)</option>
+                <option value="kvar">Kilovolt-Ampere Reactive (kVAR)</option>
+                <option value="mvar">Megavolt-Ampere Reactive (MVAR)</option>
+                <option value="gvar">Gigavolt-Ampere Reactive (GVAR)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-reactive-energy-unit">To:</label>
+              <select id="to-reactive-energy-unit">
+                <option value="var">Volt-Ampere Reactive (VAR)</option>
+                <option value="kvar">Kilovolt-Ampere Reactive (kVAR)</option>
+                <option value="mvar">Megavolt-Ampere Reactive (MVAR)</option>
+                <option value="gvar">Gigavolt-Ampere Reactive (GVAR)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-reactive-energy-value">Value:</label>
+              <input type="number" id="input-reactive-energy-value" required>
+            </div>
+            <button id="reactive-energy-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="reactive-energy-result" class="result"></div>
+        </div>
+        <script src="js/reactiveenergy-converter.js"></script>
+        <br><br>
+
+        <!-- Volume FlowRate Converter -->
+        <div class="container" id="volume-flow-rate-converter">
+          <h1 class="section-title">Volume Flow Rate Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-volume-flow-rate-unit">From:</label>
+              <select id="from-volume-flow-rate-unit">
+                <option value="cubic-meters-per-hour">Cubic Meters per Hour (m³/h)</option>
+                <option value="liters-per-second">Liters per Second (L/s)</option>
+                <option value="gallons-per-minute">Gallons per Minute (GPM)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-volume-flow-rate-unit">To:</label>
+              <select id="to-volume-flow-rate-unit">
+                <option value="cubic-meters-per-hour">Cubic Meters per Hour (m³/h)</option>
+                <option value="liters-per-second">Liters per Second (L/s)</option>
+                <option value="gallons-per-minute">Gallons per Minute (GPM)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-volume-flow-rate-value">Value:</label>
+              <input type="number" id="input-volume-flow-rate-value" required>
+            </div>
+            <button id="volume-flow-rate-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="volume-flow-rate-result" class="result"></div>
+        </div>
+        <script src="js/volumeflowrate-converter.js"></script>
+        <br><br>
+
+        <!-- Illuminance Converter -->
+        <div class="container" id="illuminance-converter">
+          <h1 class="section-title">Illuminance Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-illuminance-unit">From:</label>
+              <select id="from-illuminance-unit">
+                <option value="lux">Lux (lx)</option>
+                <option value="foot-candle">Foot-candle (fc)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-illuminance-unit">To:</label>
+              <select id="to-illuminance-unit">
+                <option value="lux">Lux (lx)</option>
+                <option value="foot-candle">Foot-candle (fc)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-illuminance-value">Value:</label>
+              <input type="number" id="input-illuminance-value" required>
+            </div>
+            <button id="illuminance-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="illuminance-result" class="result"></div>
+        </div>
+        <script src="js/illuminance-converter.js"></script>
+        <br><br>
+
+        <!-- Frequency Converter -->
+        <div class="container"id="frequency-converter">
+          <h1 class="section-title">Frequency Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-frequency-unit">From:</label>
+              <select id="from-frequency-unit">
+                <option value="hz">Hertz (Hz)</option>
+                <option value="khz">Kilohertz (kHz)</option>
+                <option value="mhz">Megahertz (MHz)</option>
+                <option value="ghz">Gigahertz (GHz)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-frequency-unit">To:</label>
+              <select id="to-frequency-unit">
+                <option value="hz">Hertz (Hz)</option>
+                <option value="khz">Kilohertz (kHz)</option>
+                <option value="mhz">Megahertz (MHz)</option>
+                <option value="ghz">Gigahertz (GHz)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-frequency-value">Value:</label>
+              <input type="number" id="input-frequency-value" required>
+            </div>
+            <button id="frequency-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="frequency-result" class="result"></div>
+        </div>
+        <script src="js/frequency-converter.js"></script>
+        <br><br>
+
+        <!-- Angular Converter -->
+        <div class="container"  id="angular-converter">
+          <h1 class="section-title">Angular Converter</h1>
+          <form>
+            <div class="input-group">
+              <label for="from-angular-unit">From:</label>
+              <select id="from-angular-unit">
+                <option value="deg">Degrees (°)</option>
+                <option value="rad">Radians (rad)</option>
+                <option value="grad">Gradians (grad)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="to-angular-unit">To:</label>
+              <select id="to-angular-unit">
+                <option value="deg">Degrees (°)</option>
+                <option value="rad">Radians (rad)</option>
+                <option value="grad">Gradians (grad)</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="input-angular-value">Value:</label>
+              <input type="number" id="input-angular-value" required>
+            </div>
+            <button id="angular-convert-button" class="convert-button" type="submit">Convert</button>
+          </form>
+          <div id="angular-result" class="result"></div>
+        </div>
+        <script src="js/angular-converter.js"></script>
+        <br><br>
+
+      </div>
+    </div>
+    
+</body>
+</html>
